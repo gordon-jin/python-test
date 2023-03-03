@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: python-test
+  name: python-test1
   description: A python app, based on the Streamlit web framework
   tags:
   - python
   - streamlit
   annotations:
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=python-test
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=python-test1
 spec:
   type: service
   lifecycle: experimental
